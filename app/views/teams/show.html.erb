@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Teamname:</strong>
+  <%= @team.teamname %>
+</p>
+
+<p>
+  <strong>Teamtype:</strong>
+  <%= @team.teamtype %>
+</p>
+
+<p>
+  <strong>Agegroup:</strong>
+  <%= @team.agegroup %>
+</p>
+
+<%= link_to 'Edit', edit_team_path(@team) %> |
+<%= link_to 'Back', teams_path %>
